@@ -9,7 +9,7 @@ var flagNames = {
 
 var processOptions = {
   encoding: 'buffer',
-  maxBuffer: 5000 * 1024
+  maxBuffer: Infinity
 };
 
 module.exports = function(audiofile, options, callback) {
